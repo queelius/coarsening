@@ -2,8 +2,9 @@
   "_meta": {
     "generated": "2026-06-08",
     "regenerated_from": "Zenodo deposit API (per-record GET); do not hand-edit, regenerate.",
-    "this_session": "mil-coarsening draft 20502965 PDF refreshed to the number-fixed build; synthesis new-version draft 20600853 (v0.2.0) created with the mil-folded-in PDF. Both UNSUBMITTED (await author publish).",
+    "this_session": "2026-06-08 minor-revision pass: refreshed the PDFs of all four pending drafts (mil 20502965, spatial 20422884, dp 20422886, phenotype 20422891) to their post-fix builds. Synthesis new-version draft 20600853 (v0.2.0, with the mil fold-in) was created earlier this session. All UNSUBMITTED (await author publish).",
     "publish_order": "Publish mil-coarsening (20502965) FIRST so its concept DOI 10.5281/zenodo.20502964 resolves, then the synthesis new version (20600853) which cites it.",
+    "pending_new_versions": "Three PUBLISHED papers changed in the 2026-06-08 minor-revision pass and warrant a Zenodo new-version when ready to re-publish (not auto-created): scrna-coarsening (20468532, one-line theorem attribution, minor); weaksup-coarsening (20422889, new r-sweep figure showing the proven linear-in-r rate); mdrelax (20468529, robustness-interval functions now exported and demonstrated, plus a title-vs-record reconcile). Create via the newversion API at publish time.",
     "known_orphans_user_action": [
       "10.5281/zenodo.20414723: published duplicate of masked-causes (concept 20414722); prior-session artifact, not API-deletable, left orphaned.",
       "10.5281/zenodo.20423241: second published mdrelax record (concept 20423240); left orphaned; canonical mdrelax concept is 20414727."
