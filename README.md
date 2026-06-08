@@ -53,15 +53,16 @@ Zenodo concept DOI (resolves to the latest published version).
 | `spatial-coarsening` | application: spatial deconvolution | 10.5281/zenodo.20422883 | draft | RECOMB / AISTATS / journal | minor-revision |
 | `dp-coarsening` | application: differential privacy | 10.5281/zenodo.20422885 | draft | TPDP / AISTATS / JPC | minor-revision |
 | `phenotype-coarsening` | application: EHR phenotyping | 10.5281/zenodo.20422890 | draft | JAMIA | minor-revision |
-| `mil-coarsening` (‡) | application: multiple instance learning | not yet deposited | draft | ML conference (TBD) | minor-revision (2026-06-08) |
+| `mil-coarsening` (‡) | application: multiple instance learning | 10.5281/zenodo.20502964 (draft) | draft | ML conference (TBD) | minor-revision (2026-06-08) |
 
 (†) Symlinked from `~/github/masked/` (shared with the masked-reliability
 cluster); see Layout above.
 
-(‡) Drafted and reviewed (2026-05-26). Folded into `coarsening-synthesis` as the
-sixth corollary (`cor:mil`) on 2026-06-08; still pending its own Zenodo deposit,
-so the synthesis cites it by GitHub URL until a concept DOI exists. See "Folded
-into the synthesis, deposit pending" under Publication status below.
+(‡) Drafted and reviewed (2026-05-26, re-reviewed 2026-06-08). Folded into
+`coarsening-synthesis` as the sixth corollary (`cor:mil`) on 2026-06-08, cited by
+its Zenodo concept DOI 10.5281/zenodo.20502964. Its Zenodo draft (20502965) is
+prepared and awaits the author's publish; see "Deposits prepared" under
+Publication status below.
 
 The shared structural result across the family is one consistency theorem for
 coarsened-data MLEs (the fitted marginal of a coarsening-sufficient statistic
@@ -114,22 +115,22 @@ Minor-revision (single most-important item from the 2026-06-08 review):
   contradict the deposited results file, and switch the hardcoded appendix
   theorem numbers to `\cref` (then complete the deposit and fold-in, below).
 
-Folded into the synthesis, deposit pending (2026-06-08 pass):
+Deposits prepared, await author publish (2026-06-08):
 
 - `mil-coarsening` (multiple instance learning) is now the sixth application in
   `coarsening-synthesis`: a `cor:mil` bag-prevalence consistency corollary, rows
   in the sufficient-statistic, singleton, and reach tables, an applications
-  subsection, and an open-problem note. The synthesis now reads "seven domains,
-  six corollaries" and builds clean (12 pages, zero undefined refs/cites). Its
-  three-result structure (rank condition on the bag composition matrix,
-  IRLS-weighted bag-prevalence consistency, aggregation-misspecification bias
-  bound) parallels the spatial and dp papers; the singleton device is the
-  singleton bag (an instance-level label). Two author steps remain: (1) deposit
-  `mil-coarsening` to Zenodo for a concept DOI (it was reviewed 2026-05-26), then
-  (2) replace the interim GitHub-URL cite for `towell2026milcoarsening` in the
-  synthesis bib with that concept DOI and cut a new synthesis version. Until
-  then the synthesis source includes mil but the published Zenodo records (both
-  the synthesis and mil) do not yet reflect it.
+  subsection, and an open-problem note. The synthesis reads "seven domains, six
+  corollaries", builds clean (12 pages), and cites mil by its Zenodo concept DOI
+  10.5281/zenodo.20502964.
+- Two Zenodo drafts are prepared and UNSUBMITTED (the author publishes via the
+  web UI): mil draft 20502965 (PDF refreshed to the number-fixed build) and a
+  synthesis new-version draft 20600853 (v0.2.0, under concept 20533912, carrying
+  the mil-folded-in PDF). Publish order: mil first, so its concept DOI resolves,
+  then the synthesis new version that cites it. Deposit state is tracked in
+  `.zenodo_drafts.json` (regenerated from the Zenodo API). Until those are
+  published, the live records do not yet reflect mil (the published synthesis is
+  v0.1.0; mil has no published record yet).
 
 ## Conventions
 

@@ -36,9 +36,10 @@ identifiability): ERCC spike-ins (scrna), single-cell-resolution probes
 (spatial), gold labels (weaksup), a non-private release (dp), chart review
 (phenotype), and singleton bags / instance-level labels (mil). The synthesis
 formalizes all six application corollaries, including `cor:mil` (added
-2026-06-08); `mil-coarsening` itself is still pending its own Zenodo deposit, so
-the synthesis cites it by GitHub URL until a concept DOI exists (see
-`README.md`). When editing one paper's consistency or identifiability result,
+2026-06-08), cited by mil's Zenodo concept DOI 10.5281/zenodo.20502964. mil's
+Zenodo draft (20502965) and a synthesis v0.2.0 new-version draft (20600853) are
+prepared and await the author's publish (mil first); see `README.md` and
+`.zenodo_drafts.json`. When editing one paper's consistency or identifiability result,
 check whether the synthesis paper's general statement and the sibling corollaries
 stay consistent.
 
