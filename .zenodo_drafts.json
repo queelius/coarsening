@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "generated": "2026-06-03",
+    "publish_status_2026-06-03": "PUBLISHED (state=done, permanent): masked-causes, coarsening-synthesis, mdrelax, scrna, weaksup. HELD as drafts (state=unsubmitted): spatial, dp, phenotype (sim-only scaffolds, per the fold-into-synthesis strategy; publish later with real data). Verified server-side.",
+    "verified": "Every entry verified server-side. The five flagship/weighted papers are now published; the three scaffolds remain drafts. Do not hand-edit; regenerate from the Zenodo API.",
+    "cite_doi_convention": "Sibling bibliographies cite the CONCEPT DOI (resolves to the latest published version). For first-deposit papers the concept DOI is the parent of the reserved version DOI.",
+    "publish_order_suggestion": "Publish masked-causes first, then the synthesis and mdrelax, then the four application papers, so that sibling concept DOIs already resolve when each citing paper goes live.",
+    "pending_step": "After the synthesis paper (10.5281/zenodo.20533913) is published, propagate light 'see also' cross-references to it in the four application scaffolds (spatial, dp, weaksup, phenotype). Do NOT add load-bearing cites to scrna or masked-causes (self-contained for external venues), and never cite the synthesis from the foundational masked-causes paper (the synthesis cites it, not vice versa).",
+    "known_orphans_user_action": [
+      "10.5281/zenodo.20414723: PUBLISHED duplicate of masked-causes under the alternate title 'Distribution-agnostic likelihood...' (own concept 20414722). Prior-session artifact, not API-deletable. Per author 2026-05-29, left orphaned; nothing cites it.",
+      "10.5281/zenodo.20423241: second PUBLISHED mdrelax record (own concept 20423240). Per author 2026-05-30, left orphaned; canonical mdrelax is concept 20414727. Nothing cites it."
+    ]
+  },
+  "coarsening-synthesis": {
+    "draft_id": 20533913, "version": "v0.1.0", "state": "unsubmitted",
+    "version_doi": "10.5281/zenodo.20533913",
+    "cite_doi": "10.5281/zenodo.20533913", "cite_doi_kind": "version",
+    "note": "First deposit (fresh this session). Flagship synthesis paper. Corrected location-family consistency theorem (Gaussian-iff boundary, Teicher 1961) and settled weak-supervision rate integrated. Once published, becomes the cross-reference target for the four application scaffolds.",
+    "deposited_pdf": "coarsening-synthesis.pdf", "deposited_bytes": 389867,
+    "draft_url": "https://zenodo.org/deposit/20533913"
+  },
+  "masked-causes-in-series-systems": {
+    "draft_id": 20457290, "version": "v0.3.0", "state": "unsubmitted",
+    "concept_doi": "10.5281/zenodo.18725577", "version_doi": "10.5281/zenodo.20457290",
+    "cite_doi": "10.5281/zenodo.18725577", "cite_doi_kind": "concept",
+    "supersedes_published": "10.5281/zenodo.19024118 (v0.2.0)",
+    "deposited_pdf": "masked-causes-in-series-systems.pdf", "deposited_bytes": 513588,
+    "note": "Refreshed this session: i.n.i.d. covariate extension (Remark 8, Hoadley 1971), CAR-overclaim softened, contributions reordered.",
+    "draft_url": "https://zenodo.org/deposit/20457290"
+  },
+  "mdrelax": {
+    "draft_id": 20468529, "version": "v0.2.0", "state": "unsubmitted",
+    "concept_doi": "10.5281/zenodo.20414727", "version_doi": "10.5281/zenodo.20468529",
+    "cite_doi": "10.5281/zenodo.20414727", "cite_doi_kind": "concept",
+    "supersedes_published": "10.5281/zenodo.20414728 (v0.1)",
+    "deposited_pdf": "mdrelax.pdf", "deposited_bytes": 556092,
+    "note": "Not stale this session; deposited PDF already current.",
+    "draft_url": "https://zenodo.org/deposit/20468529"
+  },
+  "scrna-coarsening": {
+    "draft_id": 20468532, "version": "v0.2.0", "state": "unsubmitted",
+    "concept_doi": "10.5281/zenodo.20414734", "version_doi": "10.5281/zenodo.20468532",
+    "cite_doi": "10.5281/zenodo.20414734", "cite_doi_kind": "concept",
+    "supersedes_published": "10.5281/zenodo.20414735 (v0.1)",
+    "deposited_pdf": "scrna-coarsening.pdf", "deposited_bytes": 519543,
+    "note": "Refreshed this session: liver-overclaim corrected, implied-shift reframed, DECENT reframed, Sarkar-Stephens 2021 added. External venue (Genome Biology): keep self-contained, do not make the synthesis cite load-bearing.",
+    "draft_url": "https://zenodo.org/deposit/20468532"
+  },
+  "spatial-coarsening": {
+    "draft_id": 20422884, "version": "0.1.0", "state": "unsubmitted",
+    "concept_doi": "10.5281/zenodo.20422883", "version_doi": "10.5281/zenodo.20422884",
+    "cite_doi": "10.5281/zenodo.20422883", "cite_doi_kind": "concept",
+    "deposited_pdf": "spatial-coarsening.pdf", "deposited_bytes": 383452,
+    "note": "Refreshed this session (concept-DOI bib + review fixes). Application scaffold: candidate target for a synthesis 'see also' cross-ref once synthesis is published.",
+    "draft_url": "https://zenodo.org/deposit/20422884"
+  },
+  "dp-coarsening": {
+    "draft_id": 20422886, "version": "0.1.0", "state": "unsubmitted",
+    "concept_doi": "10.5281/zenodo.20422885", "version_doi": "10.5281/zenodo.20422886",
+    "cite_doi": "10.5281/zenodo.20422885", "cite_doi_kind": "concept",
+    "deposited_pdf": "dp-coarsening.pdf", "deposited_bytes": 371654,
+    "note": "Refreshed this session. Release-consistency corollary is the n=1 single-release case (confirmed safe under the corrected location-family theorem).",
+    "draft_url": "https://zenodo.org/deposit/20422886"
+  },
+  "weaksup-coarsening": {
+    "draft_id": 20422889, "version": "0.1.0", "state": "unsubmitted",
+    "concept_doi": "10.5281/zenodo.20422888", "version_doi": "10.5281/zenodo.20422889",
+    "cite_doi": "10.5281/zenodo.20422888", "cite_doi_kind": "concept",
+    "deposited_pdf": "weaksup-coarsening.pdf", "deposited_bytes": 420469,
+    "note": "Refreshed this session: T4 settled (Theta(r/gap^2) for L2 recovery, trace-bound upper + Gaussian-location-minimax lower), r defined as degeneracy dimension, conjecture framing removed.",
+    "draft_url": "https://zenodo.org/deposit/20422889"
+  },
+  "phenotype-coarsening": {
+    "draft_id": 20422891, "version": "0.1.0", "state": "unsubmitted",
+    "concept_doi": "10.5281/zenodo.20422890", "version_doi": "10.5281/zenodo.20422891",
+    "cite_doi": "10.5281/zenodo.20422890", "cite_doi_kind": "concept",
+    "deposited_pdf": "phenotype-coarsening.pdf", "deposited_bytes": 349265,
+    "note": "Refreshed this session (concept-DOI bib + review fixes).",
+    "draft_url": "https://zenodo.org/deposit/20422891"
+  }
+}

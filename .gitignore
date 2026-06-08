@@ -1,0 +1,31 @@
+# This is the umbrella/coordination repo for the coarsening-at-random paper
+# family. Each paper and the simulation backend is its OWN independent git
+# repository with its own remote and Zenodo DOI; they are deliberately NOT
+# tracked here (no submodules). This repo holds only the shared coordination
+# files. The README publication tracker links to each paper's own repo.
+
+# Independent paper repos (own .git, remote, Zenodo DOI; two are symlinks
+# into ~/github/masked/).
+papers/
+
+# Independent simulation repo (github.com/queelius/scrna-coarsening-sims).
+sims/
+
+# Internal strategy notes, not for the public landing page.
+.ecosystem/
+
+# Operational Zenodo support-request drafts (kept local).
+.zenodo_support_request_*.md
+
+# Secrets and tooling state that must never be committed. The Zenodo API
+# token lives in ~/.zenodo.toml (outside this tree); guard against any stray
+# TOML being added here.
+.zenodo.toml
+*.toml
+__pycache__/
+*.pyc
+
+# Editor / OS
+.DS_Store
+*.swp
+*~
