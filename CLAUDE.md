@@ -10,6 +10,14 @@ each paper under `papers/` is its own independent git repository with its own
 GitHub remote and (where published) its own Zenodo DOI. This directory groups
 them for cross-paper work and publication coordination.
 
+This root is itself a small umbrella git repo (`github.com/queelius/coarsening`,
+public) tracking ONLY the coordination files (this file, `README.md`,
+`scrna-masked-bridge-report.md`, `.zenodo_drafts.json`, `.zenodo_upload.py`).
+`papers/` and `sims/` are gitignored, so each paper and the simulation backend
+keeps full `.git` independence (no submodules). Commit coordination-file changes
+here; commit paper changes in each paper's own repo. Internal notes
+(`.ecosystem/`) and Zenodo support drafts stay local (gitignored).
+
 `README.md` is the human-facing publication tracker (per-paper DOIs, venues,
 review verdicts, remaining work). Read it for status; read this file for how to
 operate. Each paper also has its own `CLAUDE.md`; consult that for paper-specific
