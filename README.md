@@ -45,15 +45,15 @@ Zenodo concept DOI (resolves to the latest published version).
 
 | Paper | Role | Concept DOI | Published | Primary venue | Review verdict |
 |-------|------|-------------|-----------|---------------|----------------|
-| `masked-causes-in-series-systems` (†) | foundational theory | 10.5281/zenodo.18725577 | yes | IEEE Trans. Reliability | minor-revision (near ready) |
+| `masked-causes-in-series-systems` (†) | foundational theory | 10.5281/zenodo.18725577 | yes | IEEE Trans. Reliability | ready (2026-06-08) |
 | `coarsening-synthesis` | cross-domain synthesis | 10.5281/zenodo.20533912 | yes | Statistical Science | ready |
 | `mdrelax` (†) | C2-sensitivity companion (R package) | 10.5281/zenodo.20414727 | yes | Technometrics | minor-revision (near ready) |
-| `scrna-coarsening` | application: scRNA-seq zero inflation | 10.5281/zenodo.20414734 | yes | Genome Biology | ready |
+| `scrna-coarsening` | application: scRNA-seq zero inflation | 10.5281/zenodo.20414734 | yes | Genome Biology | minor-revision (2026-06-08) |
 | `weaksup-coarsening` | application: programmatic weak supervision | 10.5281/zenodo.20422888 | yes | AISTATS / UAI | minor-revision |
 | `spatial-coarsening` | application: spatial deconvolution | 10.5281/zenodo.20422883 | draft | RECOMB / AISTATS / journal | minor-revision |
 | `dp-coarsening` | application: differential privacy | 10.5281/zenodo.20422885 | draft | TPDP / AISTATS / JPC | minor-revision |
 | `phenotype-coarsening` | application: EHR phenotyping | 10.5281/zenodo.20422890 | draft | JAMIA | minor-revision |
-| `mil-coarsening` (‡) | application: multiple instance learning | not yet deposited | draft | ML conference (TBD) | reviewed 2026-05-26 |
+| `mil-coarsening` (‡) | application: multiple instance learning | not yet deposited | draft | ML conference (TBD) | minor-revision (2026-06-08) |
 
 (†) Symlinked from `~/github/masked/` (shared with the masked-reliability
 cluster); see Layout above.
@@ -74,31 +74,45 @@ as an instance.
 
 ## Publication status and remaining work
 
-Reviewed comprehensively 2026-06-04 (per-paper reports under each paper's
-`.papermill/reviews/2026-06-04/`). Zero Critical findings across the family.
+Reviewed comprehensively 2026-06-08 (full papermill multi-agent pass; per-paper
+reports under each paper's `.papermill/reviews/2026-06-08/`, the prior pass under
+`2026-06-04/`). Zero Critical findings across the family. One paper is now
+`ready`; the rest are `minor-revision`, each with a single most-important item.
 
 Ready or near-ready (blockers are operational, not intellectual):
 
-- `coarsening-synthesis`: ready. Action: submit to Statistical Science (imsart
-  format already applied); optional add of Jacobsen-Keiding 1995.
-- `scrna-coarsening`: ready for Genome Biology. Code is public with a Zenodo
-  DOI. Action: add the consolidated data-availability section, relabel appendix
-  as Methods per the journal template, decide on the APC, submit.
-- `masked-causes-in-series-systems`: near ready. Action: IEEEtran reformat;
-  confirmatory live prior-art search.
-- `mdrelax`: near ready. Action: reconcile the title vs Zenodo-metadata
-  mismatch; demonstrate one robustness interval on the application data; trim to
-  the Technometrics page limit.
+- `masked-causes-in-series-systems`: ready (0 critical, 0 major). Action: the
+  IEEEtran two-column reformat at submission to IEEE Trans. Reliability, the only
+  deferred production step.
+- `coarsening-synthesis`: ready. The 2026-06-08 review items (cor:mil restated as
+  a true regime-(A) score corollary, the cor:dp count, the Dietterich MUSK
+  anchor) are fixed; the only open thread is the mil deposit plus a synthesis
+  re-version (see below).
+- `scrna-coarsening`: minor-revision. Action: add a one-line attribution at the
+  cell-total theorem to the standard exponential-family moment-matching identity,
+  then the Genome Biology production items (data-availability section, appendix as
+  Methods, APC).
+- `mdrelax`: minor-revision. Action: export and demonstrate the headline
+  robustness-interval tool (`ri_first_order` / `ri_simulation` are unexported);
+  reconcile the title vs Zenodo metadata; trim to the Technometrics page limit.
 
-Minor-revision (each has a single most-important item recorded in its review):
+Minor-revision (single most-important item from the 2026-06-08 review):
 
-- `weaksup-coarsening`: port an r-sweep panel into the validation section so the
-  proven linear-in-r rate is also shown empirically.
-- `spatial-coarsening`: add one paragraph situating the rank condition and
-  cell-total result against the NMF-identifiability / linear-mixing literature.
-- `dp-coarsening`: cite the nearest frequentist DP-inference neighbors.
-- `phenotype-coarsening`: cite Beesley-Mukherjee 2020; the real-data MIMIC-IV
-  application needs PhysioNet credentialing (the standing future blocker).
+- `weaksup-coarsening`: port the already-reproducing r-sweep panel (in
+  `.research/`) into the validation section as a sample-size-versus-r figure.
+- `spatial-coarsening`: add a paragraph and a few citations situating the rank
+  condition against the bulk RNA-seq deconvolution literature (CIBERSORTx, MuSiC,
+  BayesPrism) and the NMF-identifiability work, and soften or fully demonstrate
+  the "subsumes ..." claim (shown in full only for RCTD).
+- `dp-coarsening`: trim to the page budget (the build is ~15 pages against a
+  ~12-page target) or re-target a 10-page-plus-references venue such as AISTATS
+  (the nearest frequentist DP-inference neighbors are now cited).
+- `phenotype-coarsening`: run the MIMIC-IV real-data application (blocked on
+  PhysioNet credentialing) or add an interim semi-synthetic or public-dataset
+  demonstration (the Beesley-Mukherjee positioning is now resolved).
+- `mil-coarsening`: fix four MUSK numbers in `sections/validation.tex` that
+  contradict the deposited results file, and switch the hardcoded appendix
+  theorem numbers to `\cref` (then complete the deposit and fold-in, below).
 
 Folded into the synthesis, deposit pending (2026-06-08 pass):
 
