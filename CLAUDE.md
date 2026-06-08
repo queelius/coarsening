@@ -30,7 +30,13 @@ consistency identity at the MLE (the fitted marginal of a coarsening-sufficient
 statistic equals its empirical mean at an interior optimum). `coarsening-synthesis`
 states it once and recovers each domain version as a corollary; it also carries
 the general augmented-candidate-set rank condition and the singleton-candidate-set
-restoration result. Each application paper instantiates the framework with a
+restoration result. That synthesis is Pillar 1 (the C2-holds case); a second
+framework-tier paper, `coarsening-sensitivity` (Pillar 2, drafted 2026-06-08),
+develops the C2-violation case the synthesis assumes away: a delta-tilt bias bound
+with partial identification, and the singleton sample complexity Theta(r/gamma^2)
+that restores point identification. When editing the synthesis's C2 or
+identifiability statements, keep Pillar 2 consistent, and vice versa. Each
+application paper instantiates the framework with a
 domain-specific "singleton candidate set" (the device that restores
 identifiability): ERCC spike-ins (scrna), single-cell-resolution probes
 (spatial), gold labels (weaksup), a non-private release (dp), chart review

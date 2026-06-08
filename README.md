@@ -39,14 +39,17 @@ companion, cited in this family's bibliographies as `towell2026binary`).
 
 ## The papers
 
-The framework tier is the foundational theory plus the synthesis; the
-application tier ports the framework to specific domains. Citation uses the
-Zenodo concept DOI (resolves to the latest published version).
+The framework tier is the foundational theory plus two synthesis-level papers,
+the C2-holds cross-domain synthesis and its C2-violation sensitivity companion
+(`coarsening-sensitivity`, Pillar 2, drafted 2026-06-08); the application tier
+ports the framework to specific domains. Citation uses the Zenodo concept DOI
+(resolves to the latest published version).
 
 | Paper | Role | Concept DOI | Published | Primary venue | Review verdict |
 |-------|------|-------------|-----------|---------------|----------------|
 | `masked-causes-in-series-systems` (†) | foundational theory | 10.5281/zenodo.18725577 | yes | IEEE Trans. Reliability | ready (2026-06-08) |
-| `coarsening-synthesis` | cross-domain synthesis | 10.5281/zenodo.20533912 | yes | Statistical Science | ready |
+| `coarsening-synthesis` | cross-domain synthesis (Pillar 1, C2 holds) | 10.5281/zenodo.20533912 | yes | Statistical Science | ready |
+| `coarsening-sensitivity` | imperfect-coarsening sensitivity (Pillar 2, C2 fails) | not yet deposited | draft | Statistical Science | scaffold (2026-06-08) |
 | `mdrelax` (†) | C2-sensitivity companion (R package) | 10.5281/zenodo.20414727 | yes | Technometrics | minor-revision (near ready) |
 | `scrna-coarsening` | application: scRNA-seq zero inflation | 10.5281/zenodo.20414734 | yes | Genome Biology | minor-revision (2026-06-08) |
 | `weaksup-coarsening` | application: programmatic weak supervision | 10.5281/zenodo.20422888 | yes | AISTATS / UAI | minor-revision |
