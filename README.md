@@ -49,7 +49,7 @@ ports the framework to specific domains. Citation uses the Zenodo concept DOI
 |-------|------|-------------|-----------|---------------|----------------|
 | `masked-causes-in-series-systems` (†) | foundational theory | 10.5281/zenodo.18725577 | yes | IEEE Trans. Reliability | ready (2026-06-08) |
 | `coarsening-synthesis` | cross-domain synthesis (Pillar 1, C2 holds) | 10.5281/zenodo.20533912 | yes | Statistical Science | ready |
-| `coarsening-sensitivity` | imperfect-coarsening sensitivity (Pillar 2, C2 fails) | 10.5281/zenodo.20604314 (draft) | draft | JASA T&M / EJS | ready (2026-06-09) |
+| `coarsening-sensitivity` | imperfect-coarsening sensitivity (Pillar 2, C2 fails) | 10.5281/zenodo.20604314 (draft) | draft | EJS (JASA T&M alt) | ready (2026-06-09) |
 | `mdrelax` (†) | C2-sensitivity companion (R package) | 10.5281/zenodo.20414727 | yes | Technometrics | minor-revision (near ready) |
 | `scrna-coarsening` | application: scRNA-seq zero inflation | 10.5281/zenodo.20414734 | yes | Genome Biology | minor-revision (2026-06-08) |
 | `weaksup-coarsening` | application: programmatic weak supervision | 10.5281/zenodo.20422888 | yes | AISTATS / UAI | minor-revision |
