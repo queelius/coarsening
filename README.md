@@ -49,7 +49,7 @@ ports the framework to specific domains. Citation uses the Zenodo concept DOI
 |-------|------|-------------|-----------|---------------|----------------|
 | `masked-causes-in-series-systems` (†) | foundational theory | 10.5281/zenodo.18725577 | yes | IEEE Trans. Reliability | ready (2026-06-08) |
 | `coarsening-synthesis` | cross-domain synthesis (Pillar 1, C2 holds) | 10.5281/zenodo.20533912 | yes | Statistical Science | ready |
-| `coarsening-sensitivity` | imperfect-coarsening sensitivity (Pillar 2, C2 fails) | 10.5281/zenodo.20604314 (draft) | draft | EJS (submitted) | submitted 2026-06-09 (EJS2606-023), under review |
+| `coarsening-sensitivity` | imperfect-coarsening sensitivity (Pillar 2, C2 fails) | 10.5281/zenodo.20604314 | yes | EJS (submitted) | submitted 2026-06-09 (EJS2606-023), under review |
 | `mdrelax` (†) | C2-sensitivity companion (R package) | 10.5281/zenodo.20414727 | yes | Technometrics | minor-revision (near ready) |
 | `scrna-coarsening` | application: scRNA-seq zero inflation | 10.5281/zenodo.20414734 | yes | Genome Biology | minor-revision (2026-06-08) |
 | `weaksup-coarsening` | application: programmatic weak supervision | 10.5281/zenodo.20422888 | yes | AISTATS / UAI | minor-revision |
@@ -134,20 +134,19 @@ Deposits prepared, await author publish (2026-06-08, 2026-06-09):
   `.zenodo_drafts.json` (regenerated from the Zenodo API). Until those are
   published, the live records do not yet reflect mil (the published synthesis is
   v0.1.0; mil has no published record yet).
-- `coarsening-sensitivity` (Pillar 2) v0.1.0 DRAFT created 2026-06-09: deposition
-  20604315, concept DOI 10.5281/zenodo.20604314, main.pdf uploaded and md5
-  verified, UNSUBMITTED. It can be published independently of the mil-then-synthesis
-  order: its sibling cites (synthesis 20533912, scrna 20414734, weaksup 20422888)
-  all already resolve to published records.
+- `coarsening-sensitivity` (Pillar 2) v0.1.0: deposition 20604315, concept DOI
+  10.5281/zenodo.20604314. Created and PUBLISHED 2026-06-09 (version DOI
+  10.5281/zenodo.20604315); published independently of the mil-then-synthesis order
+  since its sibling cites already resolve.
 
 Submitted, under review:
 
 - `coarsening-sensitivity` was SUBMITTED to the Electronic Journal of Statistics on
   2026-06-09: manuscript **EJS2606-023**, under review, awaiting editor assignment
   (Round/Decision blank). Track at
-  `e-publications.org/ims/submission/EJS/author/track`. ACTION: the cover letter
-  disclosed the Zenodo preprint as publicly available, so publish the v0.1.0 draft
-  (20604315) so concept DOI 10.5281/zenodo.20604314 resolves.
+  `e-publications.org/ims/submission/EJS/author/track`. The disclosed Zenodo
+  preprint is now PUBLISHED (2026-06-09): version DOI 10.5281/zenodo.20604315,
+  concept DOI 10.5281/zenodo.20604314 resolves (record zenodo.org/records/20604315).
 
 ## Conventions
 
