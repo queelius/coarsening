@@ -36,6 +36,7 @@ ARTIFACTS = {
     "dp-coarsening": ["main.pdf"],
     "weaksup-coarsening": ["main.pdf"],
     "phenotype-coarsening": ["main.pdf"],
+    "coarsening-sensitivity": ["main.pdf"],
 }
 
 def api_request(method, url, token, data=None, content_type="application/json"):

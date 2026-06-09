@@ -49,7 +49,7 @@ ports the framework to specific domains. Citation uses the Zenodo concept DOI
 |-------|------|-------------|-----------|---------------|----------------|
 | `masked-causes-in-series-systems` (†) | foundational theory | 10.5281/zenodo.18725577 | yes | IEEE Trans. Reliability | ready (2026-06-08) |
 | `coarsening-synthesis` | cross-domain synthesis (Pillar 1, C2 holds) | 10.5281/zenodo.20533912 | yes | Statistical Science | ready |
-| `coarsening-sensitivity` | imperfect-coarsening sensitivity (Pillar 2, C2 fails) | not yet deposited | draft | Statistical Science | scaffold (2026-06-08) |
+| `coarsening-sensitivity` | imperfect-coarsening sensitivity (Pillar 2, C2 fails) | 10.5281/zenodo.20604314 (draft) | draft | Statistical Science | ready (2026-06-09) |
 | `mdrelax` (†) | C2-sensitivity companion (R package) | 10.5281/zenodo.20414727 | yes | Technometrics | minor-revision (near ready) |
 | `scrna-coarsening` | application: scRNA-seq zero inflation | 10.5281/zenodo.20414734 | yes | Genome Biology | minor-revision (2026-06-08) |
 | `weaksup-coarsening` | application: programmatic weak supervision | 10.5281/zenodo.20422888 | yes | AISTATS / UAI | minor-revision |
@@ -118,7 +118,7 @@ Minor-revision (single most-important item from the 2026-06-08 review):
   contradict the deposited results file, and switch the hardcoded appendix
   theorem numbers to `\cref` (then complete the deposit and fold-in, below).
 
-Deposits prepared, await author publish (2026-06-08):
+Deposits prepared, await author publish (2026-06-08, 2026-06-09):
 
 - `mil-coarsening` (multiple instance learning) is now the sixth application in
   `coarsening-synthesis`: a `cor:mil` bag-prevalence consistency corollary, rows
@@ -134,6 +134,11 @@ Deposits prepared, await author publish (2026-06-08):
   `.zenodo_drafts.json` (regenerated from the Zenodo API). Until those are
   published, the live records do not yet reflect mil (the published synthesis is
   v0.1.0; mil has no published record yet).
+- `coarsening-sensitivity` (Pillar 2) v0.1.0 DRAFT created 2026-06-09: deposition
+  20604315, concept DOI 10.5281/zenodo.20604314, main.pdf uploaded and md5
+  verified, UNSUBMITTED. It can be published independently of the mil-then-synthesis
+  order: its sibling cites (synthesis 20533912, scrna 20414734, weaksup 20422888)
+  all already resolve to published records.
 
 ## Conventions
 
