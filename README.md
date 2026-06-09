@@ -49,14 +49,14 @@ ports the framework to specific domains. Citation uses the Zenodo concept DOI
 |-------|------|-------------|-----------|---------------|----------------|
 | `masked-causes-in-series-systems` (†) | foundational theory | 10.5281/zenodo.18725577 | yes | IEEE Trans. Reliability | ready (2026-06-08) |
 | `coarsening-synthesis` | cross-domain synthesis (Pillar 1, C2 holds) | 10.5281/zenodo.20533912 | yes | Statistical Science | ready |
-| `coarsening-sensitivity` | imperfect-coarsening sensitivity (Pillar 2, C2 fails) | 10.5281/zenodo.20604314 (draft) | draft | Statistical Science | ready (2026-06-09) |
+| `coarsening-sensitivity` | imperfect-coarsening sensitivity (Pillar 2, C2 fails) | 10.5281/zenodo.20604314 (draft) | draft | JASA T&M / EJS | ready (2026-06-09) |
 | `mdrelax` (†) | C2-sensitivity companion (R package) | 10.5281/zenodo.20414727 | yes | Technometrics | minor-revision (near ready) |
 | `scrna-coarsening` | application: scRNA-seq zero inflation | 10.5281/zenodo.20414734 | yes | Genome Biology | minor-revision (2026-06-08) |
 | `weaksup-coarsening` | application: programmatic weak supervision | 10.5281/zenodo.20422888 | yes | AISTATS / UAI | minor-revision |
 | `spatial-coarsening` | application: spatial deconvolution | 10.5281/zenodo.20422883 | draft | RECOMB / AISTATS / journal | minor-revision |
 | `dp-coarsening` | application: differential privacy | 10.5281/zenodo.20422885 | draft | TPDP / AISTATS / JPC | minor-revision |
 | `phenotype-coarsening` | application: EHR phenotyping | 10.5281/zenodo.20422890 | draft | JAMIA | minor-revision |
-| `mil-coarsening` (‡) | application: multiple instance learning | 10.5281/zenodo.20502964 (draft) | draft | ML conference (TBD) | minor-revision (2026-06-08) |
+| `mil-coarsening` (‡) | application: multiple instance learning | 10.5281/zenodo.20502964 (draft) | draft | TMLR / JMLR | minor-revision (2026-06-08) |
 
 (†) Symlinked from `~/github/masked/` (shared with the masked-reliability
 cluster); see Layout above.
