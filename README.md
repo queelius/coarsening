@@ -316,14 +316,13 @@ the Zenodo *concept* DOI, which always resolves to the latest published version.
 | `spatial-coarsening` | application: spatial deconvolution | 10.5281/zenodo.20422883 | draft | RECOMB / AISTATS / journal | minor-revision |
 | `dp-coarsening` | application: differential privacy | 10.5281/zenodo.20422885 | draft | TPDP / AISTATS / JPC | minor-revision |
 | `phenotype-coarsening` | application: EHR phenotyping | 10.5281/zenodo.20422890 | draft | JAMIA | minor-revision |
-| `mil-coarsening` (‡) | application: multiple instance learning | 10.5281/zenodo.20502964 (draft) | draft | TMLR / JMLR | minor-revision |
+| `mil-coarsening` (‡) | application: multiple instance learning | 10.5281/zenodo.20502964 | yes | TMLR / JMLR | preprint published; journal submission optional |
 
 (†) Symlinked from `~/github/masked/` (shared with the masked-reliability
 cluster); see Layout below.
 
 (‡) Folded into `coarsening-synthesis` as the sixth corollary (`cor:mil`) and
-cited there by its concept DOI; its own Zenodo draft awaits publishing (see
-Status).
+cited there by its concept DOI (10.5281/zenodo.20502964), published 2026-06-09.
 
 ---
 
@@ -346,8 +345,9 @@ minor revision, each with a single most-important remaining item.
 
 - `masked-causes-in-series-systems`: ready. Action: the IEEEtran two-column
   reformat at submission.
-- `coarsening-synthesis`: ready. Open thread: the mil deposit plus a synthesis
-  re-version (below).
+- `coarsening-synthesis`: ready to submit. The mil deposit and the synthesis
+  v0.2.0 re-version are now published (below), so `cor:mil`'s citation resolves;
+  the next step is assembling the Statistical Science submission.
 - `scrna-coarsening`: add a one-line attribution at the cell-total theorem to the
   exponential-family moment-matching identity, then the Genome Biology production
   items.
@@ -370,13 +370,14 @@ minor revision, each with a single most-important remaining item.
   contradict the deposited results file, switch hardcoded appendix theorem numbers
   to `\cref`, then complete the deposit and fold-in.
 
-**Deposits prepared, await author publish.**
+**Published 2026-06-09 (was: deposits prepared).**
 
-- `mil-coarsening` draft 20502965 (PDF refreshed to the number-fixed build) and a
-  `coarsening-synthesis` new-version draft 20600853 (v0.2.0, under concept
-  20533912, carrying the mil-folded-in PDF). Publish order: mil first so its
-  concept DOI resolves, then the synthesis new version that cites it. Deposit
-  state is tracked in `.zenodo_drafts.json` (regenerated from the Zenodo API).
+- `mil-coarsening` v0.1.0 (deposition 20502965, concept DOI
+  10.5281/zenodo.20502964) and `coarsening-synthesis` v0.2.0 (deposition 20600853,
+  the mil-folded version, under concept 10.5281/zenodo.20533912) were published,
+  mil first so its concept DOI resolves. Both DOIs verified resolving via doi.org;
+  the synthesis concept DOI now resolves to the mil-folded v0.2.0. Deposit state is
+  tracked in `.zenodo_drafts.json`.
 
 ---
 
