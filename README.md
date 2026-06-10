@@ -345,11 +345,12 @@ minor revision, each with a single most-important remaining item.
 
 - `masked-causes-in-series-systems`: ready. Action: the IEEEtran two-column
   reformat at submission.
-- `coarsening-synthesis`: ready to submit. All seven sibling citations now resolve
-  (mil, spatial, dp, phenotype preprints published; see below), and the 2026-06-10
-  review fixes are applied (see `.papermill/reviews/2026-06-10/`). Remaining step:
-  publish a v0.3.0 re-version carrying those fixes, then submit to Statistical
-  Science.
+- `coarsening-synthesis`: submission-ready. All seven sibling citations resolve
+  (mil, spatial, dp, phenotype preprints published; see below), the 2026-06-10
+  review fixes are applied (see `.papermill/reviews/2026-06-10/`), and the public
+  preprint is now v0.3.0 (10.5281/zenodo.20633365) carrying those fixes, so it
+  matches the submission manuscript. Remaining step: submit to Statistical Science
+  (on hold per author).
 - `scrna-coarsening`: add a one-line attribution at the cell-total theorem to the
   exponential-family moment-matching identity, then the Genome Biology production
   items.
@@ -377,7 +378,9 @@ minor revision, each with a single most-important remaining item.
   10.5281/zenodo.20502964) and `coarsening-synthesis` v0.2.0 (deposition 20600853,
   the mil-folded version, under concept 10.5281/zenodo.20533912) were published
   2026-06-09, mil first so its concept DOI resolves. Both DOIs verified resolving
-  via doi.org; the synthesis concept DOI now resolves to the mil-folded v0.2.0.
+  via doi.org. The synthesis was then re-versioned to v0.3.0 (deposition 20633365)
+  on 2026-06-10 carrying the 2026-06-10 review fixes; the concept DOI
+  10.5281/zenodo.20533912 now resolves to v0.3.0.
 - `spatial-coarsening` (deposition 20422884, concept 10.5281/zenodo.20422883),
   `dp-coarsening` (20422886, concept 10.5281/zenodo.20422885), and
   `phenotype-coarsening` (20422891, concept 10.5281/zenodo.20422890) v0.1.0

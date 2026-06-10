@@ -29,12 +29,12 @@
     "cite_doi": "10.5281/zenodo.20533912",
     "cite_doi_kind": "concept",
     "published": {
-      "id": 20600853,
-      "version_doi": "10.5281/zenodo.20600853",
-      "version": "v0.2.0",
+      "id": 20633365,
+      "version_doi": "10.5281/zenodo.20633365",
+      "version": "v0.3.0",
       "state": "done",
-      "url": "https://zenodo.org/records/20600853",
-      "note": "v0.2.0 (mil-folded) published 2026-06-09; concept 20533912 now resolves here. v0.1.0 was 20533913."
+      "url": "https://zenodo.org/records/20633365",
+      "note": "v0.3.0 (2026-06-10 review fixes: ZINB suff-stat, GLM remark, spatial typo, weaksup+phenotype bib titles, kalavasis cite, float/scale) published 2026-06-10; concept 20533912 now resolves here. Prior: v0.2.0 mil-folded 20600853 (2026-06-09), v0.1.0 20533913."
     },
     "draft": null
   },
