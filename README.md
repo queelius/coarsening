@@ -313,9 +313,9 @@ the Zenodo *concept* DOI, which always resolves to the latest published version.
 | `mdrelax` (†) | C2-sensitivity companion (R package) | 10.5281/zenodo.20414727 | yes | Technometrics | minor-revision (near ready) |
 | `scrna-coarsening` | application: scRNA-seq zero inflation | 10.5281/zenodo.20414734 | yes | Genome Biology | minor-revision |
 | `weaksup-coarsening` | application: programmatic weak supervision | 10.5281/zenodo.20422888 | yes | AISTATS / UAI | minor-revision |
-| `spatial-coarsening` | application: spatial deconvolution | 10.5281/zenodo.20422883 | draft | RECOMB / AISTATS / journal | minor-revision |
-| `dp-coarsening` | application: differential privacy | 10.5281/zenodo.20422885 | draft | TPDP / AISTATS / JPC | minor-revision |
-| `phenotype-coarsening` | application: EHR phenotyping | 10.5281/zenodo.20422890 | draft | JAMIA | minor-revision |
+| `spatial-coarsening` | application: spatial deconvolution | 10.5281/zenodo.20422883 | yes | RECOMB / AISTATS / journal | preprint published; minor-revision |
+| `dp-coarsening` | application: differential privacy | 10.5281/zenodo.20422885 | yes | TPDP / AISTATS / JPC | preprint published; minor-revision |
+| `phenotype-coarsening` | application: EHR phenotyping | 10.5281/zenodo.20422890 | yes | JAMIA | preprint published; minor-revision |
 | `mil-coarsening` (‡) | application: multiple instance learning | 10.5281/zenodo.20502964 | yes | TMLR / JMLR | preprint published; journal submission optional |
 
 (†) Symlinked from `~/github/masked/` (shared with the masked-reliability
@@ -345,9 +345,11 @@ minor revision, each with a single most-important remaining item.
 
 - `masked-causes-in-series-systems`: ready. Action: the IEEEtran two-column
   reformat at submission.
-- `coarsening-synthesis`: ready to submit. The mil deposit and the synthesis
-  v0.2.0 re-version are now published (below), so `cor:mil`'s citation resolves;
-  the next step is assembling the Statistical Science submission.
+- `coarsening-synthesis`: ready to submit. All seven sibling citations now resolve
+  (mil, spatial, dp, phenotype preprints published; see below), and the 2026-06-10
+  review fixes are applied (see `.papermill/reviews/2026-06-10/`). Remaining step:
+  publish a v0.3.0 re-version carrying those fixes, then submit to Statistical
+  Science.
 - `scrna-coarsening`: add a one-line attribution at the cell-total theorem to the
   exponential-family moment-matching identity, then the Genome Biology production
   items.
@@ -366,18 +368,23 @@ minor revision, each with a single most-important remaining item.
   venue such as AISTATS.
 - `phenotype-coarsening`: run the MIMIC-IV real-data application (blocked on
   PhysioNet credentialing) or add an interim public-dataset demonstration.
-- `mil-coarsening`: fix four MUSK numbers in `sections/validation.tex` that
-  contradict the deposited results file, switch hardcoded appendix theorem numbers
-  to `\cref`, then complete the deposit and fold-in.
+- `mil-coarsening`: review fixes applied and preprint published (below); folded
+  into the synthesis as `cor:mil`. Journal submission (TMLR/JMLR) optional.
 
-**Published 2026-06-09 (was: deposits prepared).**
+**Published 2026-06-09 / 2026-06-10 (was: deposits prepared).**
 
 - `mil-coarsening` v0.1.0 (deposition 20502965, concept DOI
   10.5281/zenodo.20502964) and `coarsening-synthesis` v0.2.0 (deposition 20600853,
-  the mil-folded version, under concept 10.5281/zenodo.20533912) were published,
-  mil first so its concept DOI resolves. Both DOIs verified resolving via doi.org;
-  the synthesis concept DOI now resolves to the mil-folded v0.2.0. Deposit state is
-  tracked in `.zenodo_drafts.json`.
+  the mil-folded version, under concept 10.5281/zenodo.20533912) were published
+  2026-06-09, mil first so its concept DOI resolves. Both DOIs verified resolving
+  via doi.org; the synthesis concept DOI now resolves to the mil-folded v0.2.0.
+- `spatial-coarsening` (deposition 20422884, concept 10.5281/zenodo.20422883),
+  `dp-coarsening` (20422886, concept 10.5281/zenodo.20422885), and
+  `phenotype-coarsening` (20422891, concept 10.5281/zenodo.20422890) v0.1.0
+  preprints were published 2026-06-10 so the synthesis's remaining sibling citations
+  resolve (they had been 404 drafts). All three concept DOIs verified resolving via
+  doi.org. Each paper remains in minor-revision for its own eventual journal
+  submission. Deposit state is tracked in `.zenodo_drafts.json`.
 
 ---
 

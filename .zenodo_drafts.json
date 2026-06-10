@@ -94,40 +94,40 @@
     "concept_doi": "10.5281/zenodo.20422883",
     "cite_doi": "10.5281/zenodo.20422883",
     "cite_doi_kind": "concept",
-    "published": null,
-    "draft": {
+    "published": {
       "id": 20422884,
       "version_doi": "10.5281/zenodo.20422884",
       "version": "0.1.0",
-      "state": "unsubmitted",
-      "url": "https://zenodo.org/deposit/20422884"
-    }
+      "state": "done",
+      "url": "https://zenodo.org/records/20422884"
+    },
+    "draft": null
   },
   "dp-coarsening": {
     "concept_doi": "10.5281/zenodo.20422885",
     "cite_doi": "10.5281/zenodo.20422885",
     "cite_doi_kind": "concept",
-    "published": null,
-    "draft": {
+    "published": {
       "id": 20422886,
       "version_doi": "10.5281/zenodo.20422886",
       "version": "0.1.0",
-      "state": "unsubmitted",
-      "url": "https://zenodo.org/deposit/20422886"
-    }
+      "state": "done",
+      "url": "https://zenodo.org/records/20422886"
+    },
+    "draft": null
   },
   "phenotype-coarsening": {
     "concept_doi": "10.5281/zenodo.20422890",
     "cite_doi": "10.5281/zenodo.20422890",
     "cite_doi_kind": "concept",
-    "published": null,
-    "draft": {
+    "published": {
       "id": 20422891,
       "version_doi": "10.5281/zenodo.20422891",
       "version": "0.1.0",
-      "state": "unsubmitted",
-      "url": "https://zenodo.org/deposit/20422891"
-    }
+      "state": "done",
+      "url": "https://zenodo.org/records/20422891"
+    },
+    "draft": null
   },
   "mil-coarsening": {
     "concept_doi": "10.5281/zenodo.20502964",
