@@ -308,7 +308,7 @@ the Zenodo *concept* DOI, which always resolves to the latest published version.
 | Paper | Role | Concept DOI | Published | Primary venue | Status |
 |-------|------|-------------|-----------|---------------|--------|
 | `masked-causes-in-series-systems` (†) | foundational theory | 10.5281/zenodo.18725577 | yes | IEEE Trans. Reliability | ready |
-| `coarsening-synthesis` | cross-domain synthesis (Pillar 1, C2 holds) | 10.5281/zenodo.20533912 | yes | Statistical Science | ready |
+| `coarsening-synthesis` | cross-domain synthesis (Pillar 1, C2 holds) | 10.5281/zenodo.20533912 | yes | Statistical Science (submitted) | submitted 2026-06-11 (STS2606-004), under review |
 | `coarsening-sensitivity` | imperfect-coarsening sensitivity (Pillar 2, C2 fails) | 10.5281/zenodo.20604314 | yes | Electronic Journal of Statistics | submitted 2026-06-09 (EJS2606-023), under review |
 | `mdrelax` (†) | C2-sensitivity companion (R package) | 10.5281/zenodo.20414727 | yes | Technometrics | minor-revision (near ready) |
 | `scrna-coarsening` | application: scRNA-seq zero inflation | 10.5281/zenodo.20414734 | yes | Genome Biology | minor-revision |
@@ -340,17 +340,22 @@ minor revision, each with a single most-important remaining item.
   `e-publications.org/ims/submission/EJS/author/track`. Its preprint is published
   (version DOI 10.5281/zenodo.20604315; concept DOI 10.5281/zenodo.20604314
   resolves).
+- `coarsening-synthesis`: submitted to Statistical Science on 2026-06-11, manuscript
+  **STS2606-004** (EJMS article 77074), awaiting editor assignment. Track at
+  `e-publications.org/ims/submission/STS/author/track`. The submitted PDF is the
+  v0.3.0 preprint (version DOI 10.5281/zenodo.20633365; concept DOI
+  10.5281/zenodo.20533912 resolves to it). MSC 2020 codes were supplied in the
+  cover comments (the STS form has no MSC field); LaTeX source is held for
+  production at acceptance.
 
 **Ready or near-ready (blockers are operational, not intellectual).**
 
 - `masked-causes-in-series-systems`: ready. Action: the IEEEtran two-column
   reformat at submission.
-- `coarsening-synthesis`: submission-ready. All seven sibling citations resolve
-  (mil, spatial, dp, phenotype preprints published; see below), the 2026-06-10
-  review fixes are applied (see `.papermill/reviews/2026-06-10/`), and the public
-  preprint is now v0.3.0 (10.5281/zenodo.20633365) carrying those fixes, so it
-  matches the submission manuscript. Remaining step: submit to Statistical Science
-  (on hold per author).
+- `coarsening-synthesis`: SUBMITTED to Statistical Science 2026-06-11 (STS2606-004);
+  see "Submitted, under review" above. All seven sibling citations resolve, the
+  2026-06-10 review fixes are applied, and the submitted PDF matches the public
+  v0.3.0 preprint.
 - `scrna-coarsening`: add a one-line attribution at the cell-total theorem to the
   exponential-family moment-matching identity, then the Genome Biology production
   items.
