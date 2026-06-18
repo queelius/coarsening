@@ -1,10 +1,8 @@
-# Coarsening at Random
-
-*A small monograph on masked-data identifiability across domains: the one idea, its
-six instances, and the papers that are still missing.*
-
-Author: Alexander Towell (lex@metafunctor.com, ORCID 0000-0001-6443-9897), SIUE.
-
+---
+title: "Coarsening at Random"
+subtitle: "A small monograph on masked-data identifiability across domains: the one idea, its six instances, and the papers that are still missing"
+author: "Alexander Towell, Southern Illinois University Edwardsville"
+date: "June 2026"
 ---
 
 ## 0. What this is, and why it exists
@@ -26,7 +24,7 @@ consolidation would need.)
 The existing pieces, by Zenodo concept DOI:
 
 | Role | Paper | Concept DOI |
-|------|-------|-------------|
+|:---------|:----------------------------------------|:------------------------|
 | Foundation | `masked-causes-in-series-systems` | 10.5281/zenodo.18725577 |
 | Pillar 1 (C2 holds) | `coarsening-synthesis` | 10.5281/zenodo.20533912 |
 | Pillar 2 (C2 fails) | `coarsening-sensitivity` | 10.5281/zenodo.20604314 |
