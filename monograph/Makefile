@@ -8,13 +8,15 @@
 LATEX ?= pdflatex
 STEM  := coarsening-at-random
 
-$(STEM).pdf: $(STEM).tex
+$(STEM).pdf: $(STEM).tex refs.bib
+	$(LATEX) -interaction=nonstopmode -halt-on-error $(STEM).tex
+	bibtex $(STEM)
 	$(LATEX) -interaction=nonstopmode -halt-on-error $(STEM).tex
 	$(LATEX) -interaction=nonstopmode -halt-on-error $(STEM).tex
 
 .PHONY: clean
 clean:
-	rm -f $(STEM).aux $(STEM).log $(STEM).out $(STEM).toc
+	rm -f $(STEM).aux $(STEM).log $(STEM).out $(STEM).toc $(STEM).bbl $(STEM).blg
 
 .PHONY: distclean
 distclean: clean

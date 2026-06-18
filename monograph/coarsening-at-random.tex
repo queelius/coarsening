@@ -18,6 +18,7 @@
 \usepackage{microtype}
 \usepackage{parskip}
 \usepackage{titlesec}
+\usepackage[round,authoryear]{natbib}
 \usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue]{hyperref}
 
 % ragged, wrapping X column for wide tables
@@ -109,8 +110,8 @@ case, a kernel-weighted continuum in the additive-noise case.
 
 \subsection{The three conditions}
 
-Coarsening at random (CAR; Heitjan and Rubin 1991, Gill, van der Laan and Robins
-1997) is three conditions under which the nuisance becomes \emph{eliminable}, so
+Coarsening at random \citep[CAR;][]{heitjan1991ignorability, gill1997coarsening}
+is three conditions under which the nuisance becomes \emph{eliminable}, so
 that maximizing the latent model restricted to the candidate set, the
 ``face-value'' likelihood, is legitimate:
 
@@ -238,8 +239,9 @@ the spine.
 
 \paragraph{G1. The semiparametric-efficiency pillar (the biggest gap).}
 The entire program estimates by parametric face-value MLE. But CAR \emph{is} the
-Gill, van der Laan and Robins setting, the home of semiparametric efficiency and
-targeted learning. The missing paper develops the influence-function, efficient-score
+\citet{gill1997coarsening} setting, the home of semiparametric efficiency
+\citep{tsiatis2006semiparametric} and targeted learning \citep{vanderlaan2011targeted}.
+The missing paper develops the influence-function, efficient-score
 and targeted-minimum-loss (TMLE-style) doubly-robust estimator for the coarsening
 estimand. Payoff: efficiency and robustness the current MLE lacks; a single
 semiparametric account that \emph{dissolves} the awkward ``regime A versus regime
@@ -276,13 +278,14 @@ Medium difficulty, high value, and unusually practical.
 \paragraph{G4. Global (non-local) sensitivity and sharp partial-identification regions.}
 Pillar 2's bias bound is first-order in $\delta$: local. For large C2 violations it
 says nothing. The missing paper computes \emph{sharp} partial-identification regions
-(Manski or Tamer style) or higher-order expansions, so the partial-identification
+in the style of \citet{manski1989anatomy} and \citet{tamer2010partial}, or
+higher-order expansions, so the partial-identification
 set is exact rather than a first-order ellipse. This is ``Pillar 2 at finite
 $\delta$.''
 
 \paragraph{G5. Bayesian coarsening and Bayesian sensitivity.}
 Everything is frequentist MLE. The missing paper puts a prior on the tilt instead of
-a worst-case bound (Daniels and Hogan spirit), yielding a posterior over the
+a worst-case bound, in the spirit of \citet{daniels2008missing}, yielding a posterior over the
 partial-identification region, and develops the Bayesian analogue of the consistency
 identity (posterior moment matching) and of the singleton (informative auxiliary
 likelihood). It also gives the program a natural account of \emph{how much} a
@@ -293,15 +296,17 @@ The clean results lean on exponential or location families. The missing paper
 replaces the parametric face-value model with a neural density estimator or
 normalizing flow, enforcing the consistency identity as a moment constraint during
 training, and asks when identifiability survives. This is the bridge to deep
-generative scRNA-seq models (scVI, DCA) that currently handle dropout without
+generative scRNA-seq models \citep[scVI, DCA;][]{lopez2018scvi, eraslan2019single}
+that currently handle dropout without
 identifiability guarantees; the coarsening framework would supply the guarantee.
 
 \subsection{Tier 3: bridges and frontier extensions}
 
 \paragraph{G7. The causal-inference and proximal bridge.}
 A singleton is a perfect anchor, and ``an anchor that pins a latent quantity'' is
-close to negative controls and proximal causal inference (Miao, Tchetgen Tchetgen)
-and to instrumental identification. The missing paper recasts the singleton as a
+close to negative controls and proximal causal inference \citep{miao2018identifying}
+and to instrumental identification \citep{neweypowell2003instrumental}. The missing
+paper recasts the singleton as a
 proximal or anchor variable and imports the proximal toolkit, generalizing
 restoration beyond the exact-pin case to noisy anchors. This also connects coarsening
 to a large, active causal-inference literature the program currently does not speak
@@ -311,8 +316,8 @@ to.
 The margin $\gamma$ and the $r/\gamma^2$ rate look like margin-based PAC sample
 complexity. The missing paper gives a Rademacher or VC treatment of the coarsening
 hypothesis class, generalizing the rate beyond the stylized linear confounded-subspace
-model and connecting to the coarse-label learnability line (Fotakis et al. 2021; the
-2026 mean-estimation-from-coarse-data work).
+model and connecting to the coarse-label learnability line
+\citep{fotakis2021efficient, kalavasis2026mean}.
 
 \paragraph{G9. Multiclass and longitudinal coarsening.}
 Several instances are binary (weak supervision, MIL); the reliability foundation is
@@ -381,5 +386,8 @@ monograph or review as the flagship. The gap list is the agenda for what those d
 papers would contain. The program is not a dead end; it is a spine with several
 vertebrae still to grow, and it has been told, so far, in too many small voices
 instead of one.
+
+\bibliographystyle{plainnat}
+\bibliography{refs}
 
 \end{document}
