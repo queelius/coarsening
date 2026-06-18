@@ -1,0 +1,6 @@
+# LaTeX build byproducts (the .pdf is committed as the deliverable)
+*.aux
+*.log
+*.out
+*.toc
+build.err

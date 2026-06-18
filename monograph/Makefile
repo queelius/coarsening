@@ -1,16 +1,21 @@
-# Build the coarsening-at-random monograph PDF from Markdown.
-# Requires pandoc and a pdflatex (TeX Live). Run: make
+# Build the coarsening-at-random monograph PDF from LaTeX.
+# Requires a pdflatex (TeX Live). Run: make
+#
+# The article class is deliberate: swap \documentclass for a venue style sheet
+# (imsart, IEEEtran, jmlr2e, tmlr, ...) when targeting a specific venue, and the
+# body should need little else. Two passes resolve the table of contents.
 
-PANDOC ?= pandoc
-SRC    := coarsening-at-random.md
-PDF    := coarsening-at-random.pdf
+LATEX ?= pdflatex
+STEM  := coarsening-at-random
 
-$(PDF): $(SRC) header.tex
-	$(PANDOC) $(SRC) -o $(PDF) \
-	  --pdf-engine=pdflatex --toc --toc-depth=3 -H header.tex \
-	  -V geometry:margin=1in -V fontsize=11pt -V documentclass=article \
-	  -V colorlinks=true -V linkcolor=blue -V urlcolor=blue -V toccolor=black
+$(STEM).pdf: $(STEM).tex
+	$(LATEX) -interaction=nonstopmode -halt-on-error $(STEM).tex
+	$(LATEX) -interaction=nonstopmode -halt-on-error $(STEM).tex
 
 .PHONY: clean
 clean:
-	rm -f $(PDF) build.err
+	rm -f $(STEM).aux $(STEM).log $(STEM).out $(STEM).toc
+
+.PHONY: distclean
+distclean: clean
+	rm -f $(STEM).pdf
