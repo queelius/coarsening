@@ -141,5 +141,18 @@
       "url": "https://zenodo.org/records/20502965"
     },
     "draft": null
+  },
+  "monograph": {
+    "concept_doi": "10.5281/zenodo.20755363",
+    "cite_doi": "10.5281/zenodo.20755363",
+    "cite_doi_kind": "concept",
+    "published": {
+      "id": 20755364,
+      "version_doi": "10.5281/zenodo.20755364",
+      "version": "v0.1.0",
+      "state": "done",
+      "url": "https://zenodo.org/record/20755364"
+    },
+    "draft": null
   }
 }

@@ -1,0 +1,44 @@
+{
+  "title": "Coarsening at Random: A Small Monograph on Masked-Data Identifiability Across Domains",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "<p>The coarsening-at-random program is a family of papers showing that several unrelated-looking data problems (reliability with masked failure causes, single-cell and spatial transcriptomics, differential privacy, programmatic weak supervision, electronic-health-record phenotyping, and multiple instance learning) are instances of one statistical structure: a latent quantity observed only through a coarsening, identifiable under the conditions C1, C2, C3 of Heitjan-Rubin and Gill-van der Laan-Robins.</p><p>This monograph states the shared idea once, at the generality that explains the recurrence, and places each existing paper inside that frame: a reliability foundation, two framework-tier pillars (the C2-holds consistency synthesis and the C2-fails sensitivity theory), and six domain instances. Three results recur in every domain and are stated once here: a consistency identity at the maximum-likelihood fit, an augmented-candidate-set rank condition for identifiability, and a singleton candidate set that restores identifiability when the rank condition fails. The monograph then draws the boundary of the program and names the papers that are missing, stated as a research agenda of gaps whose results would close the framework: a semiparametric-efficiency pillar, estimation of the identifiability geometry from data, optimal and active singleton design, global partial identification, Bayesian and nonparametric treatments, causal and learning-theoretic bridges, and an impossibility and limits paper. It is both an entry point to the program and a plan for its consolidation.</p>",
+  "version": "v0.1.0",
+  "language": "eng",
+  "license": {"id": "CC-BY-4.0"},
+  "keywords": [
+    "coarsening at random",
+    "masked-data inference",
+    "identifiability",
+    "maximum likelihood",
+    "monograph",
+    "research agenda",
+    "semiparametric efficiency",
+    "partial identification",
+    "single-cell RNA-seq",
+    "spatial transcriptomics",
+    "differential privacy",
+    "weak supervision",
+    "electronic phenotyping",
+    "multiple instance learning"
+  ],
+  "creators": [
+    {
+      "name": "Towell, Alexander",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.18725577", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.20533912", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.20604314", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.20414727", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.20414734", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.20422883", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.20422885", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.20422888", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.20422890", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.20502964", "relation": "references", "scheme": "doi"}
+  ]
+}

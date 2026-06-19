@@ -317,12 +317,19 @@ the Zenodo *concept* DOI, which always resolves to the latest published version.
 | `dp-coarsening` | application: differential privacy | 10.5281/zenodo.20422885 | yes | TPDP / AISTATS / JPC | preprint published; minor-revision |
 | `phenotype-coarsening` | application: EHR phenotyping | 10.5281/zenodo.20422890 | yes | JAMIA | preprint published; minor-revision |
 | `mil-coarsening` (‡) | application: multiple instance learning | 10.5281/zenodo.20502964 | yes | TMLR / JMLR | preprint published; journal submission optional |
+| `monograph/` (§) | program synthesis: whole-arc overview + research agenda | 10.5281/zenodo.20755363 | yes | Zenodo monograph (review submission possible) | published 2026-06-18 (v0.1.0) |
 
 (†) Symlinked from `~/github/masked/` (shared with the masked-reliability
 cluster); see Layout below.
 
 (‡) Folded into `coarsening-synthesis` as the sixth corollary (`cor:mil`) and
 cited there by its concept DOI (10.5281/zenodo.20502964), published 2026-06-09.
+
+(§) Lives in `monograph/` in this umbrella repo (not a separate paper repo). It
+states the shared idea once, places every paper above inside that frame, and
+names the missing papers as a research agenda. Native LaTeX (`make` in that dir);
+references the ten papers above by their concept DOIs. Concept DOI
+10.5281/zenodo.20755363 always resolves to the latest version.
 
 ---
 
